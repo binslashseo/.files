@@ -1,0 +1,16 @@
+session.styleFile: /usr/share/blackbox/styles/Gray
+session.menuFile: /home/seo/.blackbox/menu
+session.screen0.toolbar.widthPercent: 50
+session.screen0.workspaces: 4
+essio.screen0.workspaceNames: 1,2,3,4
+session.screen0.strftimeFormat: %I:%M
+session.windowSnapThreshold: 5
+session.autoRaiseDelay: 350
+session.opaqueMove: false
+session.changeWorkspaceWithMouseWheel: false
+session.shadeWindowWithMouseWheel: false
+session.toolbarActionsWithMouseWheel: true
+session.doubleClickInterval: 300
+session.edgeSnapThreshold: 5
+session.focusNewWindows: true
+session.focusModel: ClickToFocus

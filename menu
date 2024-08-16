@@ -1,0 +1,16 @@
+[begin] (> menu <)
+	[exec] (xterm) {xterm -b 12}
+	[exec] (qute) {qutebrowser --qt-flag no-sandbox}
+	[exec] (exec) {dmenu_run -nb gray10 -sb rgb:d6/43/29 -fn Terminus:9}
+	[submenu] (scrot) {}
+		[exec] (now) {scrot}
+		[exec] (3s) {scrot -d 3}
+		[exec] (5s) {scrot -d 5}
+		[exec] (10s) {scrot -d 10}
+		[exec] (15s) {scrot -d 15}
+	[end]
+	[nop] (========)
+	[reconfig] (reconfig) {}
+	[restart] (restart) {}
+	[exit] (exit)
+[end]

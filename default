@@ -1,0 +1,75 @@
+*button.pressed.appearance: flat solid
+*button.pressed.backgroundColor: black
+*button.appearance: parentrelative
+*button.foregroundColor: gray20
+
+*backgroundColor: black
+*color1: black
+*color2: black
+
+*font: Terminus-9
+
+*borderColor: black
+*borderWidth: 0
+*marginWidth: 4
+
+menu.title.appearance: flat solid
+menu.title.backgroundColor: black
+menu.title.foregroundColor: white
+menu.title.textColor: white
+menu.title.alignment: center
+menu.title.font: Terminus-9:style=Bold
+
+menu.frame.appearance: flat solid
+menu.frame.textColor: white
+menu*marginWidth: 4
+menu.frame.foregroundColor: black
+menu.frame.disabledColor: gray10
+menu.frame.alignment: left
+
+menu.active.appearance: flat solid
+menu.active.backgroundColor: grey10
+menu.active.foregroundColor: black
+menu.active.textColor: white
+
+rootCommand: ~/.blackbox/autostart
+
+slit.appearance: raised solid
+slit.backgroundColor: rgb:aa/aa/aa
+slit.marginWidth: 3
+
+toolbar.appearance: flat solid
+toolbar*marginWidth: 6
+toolbar.alignment: center
+toolbar*textColor: white
+toolbar.label.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+
+window.title.focus.appearance: flat solid
+window.title.focus.backgroundColor: rgb:d6/43/29
+window.title.focus.color2: blue
+window.title.unfocus.appearance: flat solid
+
+window.label.focus.appearance: parentrelative
+window.label.focus.textColor: rgb:d6/43/29
+window.label.unfocus.appearance: parentrelative
+window.label.unfocus.textColor: black
+window.label.marginWidth: 8
+
+window.button.focus.appearance: parentrelative
+window.button.focus.foregroundColor: black
+
+window.button.unfocus.appearance: parentrelative
+window.button.unfocus.foregroundColor: gray10
+
+window.handle.focus.appearance: flat solid
+window.handle.unfocus.appearance: flat solid
+
+window.grip.focus.appearance: raised solid border
+window.grip.focus.backgroundColor: black
+window.grip.unfocus.appearance: flat solid
+
+window*alignment: center
+window.font: Terminus-9:style=Bold
+window.handleHeight: 1
